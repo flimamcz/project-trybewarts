@@ -61,3 +61,12 @@ img {
   color: white;
   background-color: '#4E2C83';
 }
+
+/* FORM */
+.flex {
+  display: flex;
+}
+
+#evaluation-form {
+  width: 675px;
+}
