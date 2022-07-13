@@ -1,4 +1,6 @@
 const button = document.getElementById('button');
+const buttonSubmit = document.getElementById('submit-btn');
+const checkboxAgreement = document.getElementById('agreement');
 
 function verifyData(event) {
   event.preventDefault();
@@ -14,4 +16,13 @@ function verifyData(event) {
   }
 }
 
+function verifyCheckbox() {
+  if (checkboxAgreement.checked) {
+    buttonSubmit.removeAttribute('disabled');
+  } else {
+    buttonSubmit.setAttribute('disabled', 'disabled');
+  }
+}
+
 button.addEventListener('click', verifyData);
+checkboxAgreement.addEventListener('change', verifyCheckbox);
