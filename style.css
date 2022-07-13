@@ -59,14 +59,19 @@ img {
 .trybewarts-login button {
   cursor: pointer;
   color: white;
-  background-color: '#4E2C83';
+  background-color: rgb(78, 44, 131);
 }
 
-/* FORM */
-.flex {
+/* FORM e MAIN*/
+.main-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 64px;
 }
 
 #evaluation-form {
+  display: flex;
   width: 675px;
+  flex-direction: column;
 }
