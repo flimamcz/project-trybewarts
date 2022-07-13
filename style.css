@@ -29,7 +29,7 @@ img {
 .header h1 {
   text-align: center;
   font-size: 36px;
-  color: #fff;
+  color: white;
 }
 
 .header a img {
@@ -37,7 +37,6 @@ img {
 }
 
 /* FORM */
-
 .trybewarts-login {
   display: flex;
   gap: 20px;
@@ -45,21 +44,20 @@ img {
 
 .trybewarts-login input {
   font-size: 14px;
-  background: #fff;
+  background: white;
 }
 
-.trybewarts-login input,
-.trybewarts-login button {
+.trybewarts-login input , .trybewarts-login button {
   width: 33%;
   border-radius: 5px;
   border: none;
   padding: 12px 10px;
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: bold;
+  font-family: Times New Roman, Times, serif;
+  font-weight: 700;
 }
 
 .trybewarts-login button {
   cursor: pointer;
-  color: #fff;
-  background-color: #4E2C83;
+  color: white;
+  background-color: '#4E2C83';
 }
