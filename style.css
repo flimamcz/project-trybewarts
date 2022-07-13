@@ -20,5 +20,46 @@ img {
 /* HEADER */
 .header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: rgb(50, 167, 145);
+  padding: 10px 90px;
+}
+
+.header h1 {
+  text-align: center;
+  font-size: 36px;
+  color: #fff;
+}
+
+.header a img {
+  width: 80px;
+}
+
+/* FORM */
+
+.trybewarts-login {
+  display: flex;
+  gap: 20px;
+}
+
+.trybewarts-login input {
+  font-size: 14px;
+  background: #fff;
+}
+
+.trybewarts-login input,
+.trybewarts-login button {
+  width: 33%;
+  border-radius: 5px;
+  border: none;
+  padding: 12px 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.trybewarts-login button {
+  cursor: pointer;
+  color: #fff;
+  background-color: #4E2C83;
 }
