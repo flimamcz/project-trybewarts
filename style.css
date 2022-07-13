@@ -64,8 +64,10 @@ img {
 
 /* FORM e MAIN */
 .main-container {
+  max-width: 1220px;
+  margin: 0 auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   margin-top: 64px;
 }
@@ -74,4 +76,32 @@ img {
   display: flex;
   width: 675px;
   flex-direction: column;
+}
+
+hr {
+  width: 675px;
+  margin: 30px 0;
+}
+
+/* FORM RADIO */
+.container-radios {
+  display: flex;
+  gap: 30px;
+}
+
+.radio-family {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: Courier New, Courier, monospace;
+}
+
+.radio-family h3 {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.radio-family label {
+  font-size: 14px;
+  font-weight: 700;
 }
