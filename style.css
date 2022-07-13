@@ -183,3 +183,17 @@ hr {
   font-size: 18px;
   font-weight: 700;
 }
+
+.textarea {
+  display: block;
+  font-family: 18px;
+  font-weight: 700;
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+#textarea {
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid rgb(78, 44, 131);
+}
