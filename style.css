@@ -204,11 +204,6 @@ hr {
   margin-bottom: 20px;
 }
 
-#submit-btn:disabled {
-  opacity: 0.5;
-}
-
-
 #submit-btn {
   border-radius: 5px;
   border: none;
@@ -219,8 +214,12 @@ hr {
   cursor: pointer;
   color: white;
   background-color: rgb(78, 44, 131);
-  transition: .3s;
+  transition: 0.3s;
   margin-bottom: 50px;
+}
+
+#submit-btn:disabled {
+  opacity: 0.5;
 }
 
 .footer {
@@ -231,4 +230,8 @@ hr {
   font-size: 20px;
   color: white;
   font-weight: 700;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
 }
