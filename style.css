@@ -72,8 +72,8 @@ img {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   margin-top: 64px;
+  align-items: center;
 }
 
 .name-lastname input , .email-houses input , .email-houses label {
@@ -196,4 +196,39 @@ hr {
   width: 100%;
   border-radius: 3px;
   border: 1px solid rgb(78, 44, 131);
+}
+
+#label-infos {
+  font-size: 16px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+#submit-btn:disabled {
+  opacity: 0.5;
+}
+
+
+#submit-btn {
+  border-radius: 5px;
+  border: none;
+  padding: 15px 10px;
+  font-family: Times New Roman, Times, serif;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(78, 44, 131);
+  transition: .3s;
+  margin-bottom: 50px;
+}
+
+.footer {
+  width: 100%;
+  background-color: rgb(50, 167, 145);
+  padding: 40px 0;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
 }
