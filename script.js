@@ -1,6 +1,9 @@
 const button = document.getElementById('button');
 const buttonSubmit = document.getElementById('submit-btn');
 const checkboxAgreement = document.getElementById('agreement');
+const counter = document.getElementById('counter');
+const textArea = document.getElementById('textarea');
+const counterReturn = Number(counter.innerText);
 
 function verifyData(event) {
   event.preventDefault();
@@ -24,5 +27,12 @@ function verifyCheckbox() {
   }
 }
 
+function handleTextarea() {
+  const valueTextArea = Number(textArea.value.length);
+  const returnCounter = counterReturn - valueTextArea;
+  counter.innerText = returnCounter;
+}
+
+textArea.addEventListener('keyup', handleTextarea);
 button.addEventListener('click', verifyData);
 checkboxAgreement.addEventListener('change', verifyCheckbox);

@@ -164,7 +164,8 @@
 
             <label for="textarea" class="textarea">
                 Deixe seu comentário:
-                <textarea name="textarea" id="textarea" cols="30" rows="10" maxlength="500"></textarea>
+                <textarea name="textarea" id="textarea" cols="30" rows="10" maxlength="500" onchange="handleTextarea()"></textarea>
+                <p>Limite de caracteres: <span id="counter">500</span></p>
             </label>
 
             <label for="" id="label-infos">
